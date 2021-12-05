@@ -10,11 +10,11 @@
         <property name="show_sql">true</property>
         <property name="hibernate.hbm2ddl.auto">update</property>
 
-        <mapping class="entity.bookEntity"/>
-        <mapping class="entity."/>
-        <mapping class="entity."/>
-        <mapping class="entity."/>
-        <mapping class="entity."/>
+        <mapping class="entity.WeatherEntity"/>
+        <mapping class="entity.WeatherDetailsEntity"/>
+        <mapping class="entity.WeatherCordinatesEntity"/>
+        <mapping class="entity.WeatherRegionEntity"/>
+
         <mapping resource="prove.xml"/>
         <!--        <mapping resource="soap.xml"/>&ndash;&gt;-->
         <!--        <mapping resource="milk.xml"/>&ndash;&gt;-->
