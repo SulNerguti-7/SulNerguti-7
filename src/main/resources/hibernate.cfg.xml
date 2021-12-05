@@ -1,0 +1,22 @@
+<hibernate-configuration>
+    <session-factory>
+        <property name="dialect">org.hibernate.dialect.MySQL57Dialect</property>
+        <property name="connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+        <property name="connection.url">jdbc:mysql://localhost:3306/car_rental</property>
+        <property name="connection.username">root</property>
+        <property name="connection.password">0087</property>
+        <property name="hibernate.connection.pool_size">1</property>
+        <property name="hibernate.current_session_context_class">thread</property>
+        <property name="show_sql">true</property>
+        <property name="hibernate.hbm2ddl.auto">update</property>
+
+        <mapping class="entity.bookEntity"/>
+        <mapping class="entity."/>
+        <mapping class="entity."/>
+        <mapping class="entity."/>
+        <mapping class="entity."/>
+        <mapping resource="prove.xml"/>
+        <!--        <mapping resource="soap.xml"/>&ndash;&gt;-->
+        <!--        <mapping resource="milk.xml"/>&ndash;&gt;-->
+    </session-factory>
+</hibernate-configuration>
